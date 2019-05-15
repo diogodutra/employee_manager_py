@@ -9,4 +9,4 @@ team.append(f1);
 team.append(g1);
  
 for f in team:
-	print (f.__str__())
+	print (f)
