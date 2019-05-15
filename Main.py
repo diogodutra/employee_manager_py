@@ -1,8 +1,8 @@
 from Employee import Employee 
 from Manager import Manager
 
-f1 = Employee("Jose", "1259-8", 12.5, 44)
-g1 = Manager("Andre", "6759-7", 12.5, 44, 10) 
+f1 = Employee("Joseph", "1259-8", 12.5, 44)
+g1 = Manager ("Andrew", "6759-7", 12.5, 44, 10) 
 
 team = [] 
 team.append(f1); 
