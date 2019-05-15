@@ -12,6 +12,14 @@ class Employee(object):
 		self.rate_hourly = rate_hourly
 		self.worked_hours = worked_hours
 		
+	#destructor
+	def __del__(self):
+		#body of destructor
+		pass
+		
+	def __str__(self):
+		return str(self.id) + ", " + str(self.name) + ", " + str(self.worked_hours) + "h, $" + str(self.rate_hourly) + "/h"
+		
 	#public methods
 	def get_salary(self): 
 		return self.rate_hourly * self.worked_hours
