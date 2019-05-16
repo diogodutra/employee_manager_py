@@ -5,8 +5,8 @@ class Manager(Employee):
 	rate_hourly_extra = 0.0
 	
 	#constructor
-	def __init__(self, name, id, rate_hourly, worked_hours, rate_hourly_extra): 
-		Employee.__init__(self, name, id, rate_hourly, worked_hours)
+	def __init__(self, name, id, rate_hourly, hours_monthly, rate_hourly_extra): 
+		Employee.__init__(self, name, id, rate_hourly, hours_monthly)
 		self.rate_hourly_extra = rate_hourly_extra
 		
 	#destructor
